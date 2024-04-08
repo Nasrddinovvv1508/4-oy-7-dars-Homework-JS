@@ -47,9 +47,9 @@
         // 3-MASALA
 // let arr = [1, 2, 3] 
 // let arr2 = [4, 5] 
-// let sum = 0;
 
 // function sumArr() {
+//     let sum = 0;
 //     for (const iterator of arr) {
 //         sum += iterator;
 //     }
@@ -89,12 +89,12 @@
 
 
         // 5-MASALA
-// let str = `Salom`;
+let str = `Salom`;
 
-// function reverseStr() {
-//     let arr = Array.from(str)
-//     arr.reverse();
-//     return arr.join('');
-// }
+function reverseStr() {
+    let arr = Array.from(str)
+    arr.reverse();
+    return arr.join('');
+}
 
-// console.log(reverseStr());
+console.log(reverseStr());
